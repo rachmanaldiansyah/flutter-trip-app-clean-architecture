@@ -34,18 +34,30 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+
+  # Flutter launcher icon
+  flutter_launcher_icons: "^0.13.1"
+
+  # Hive for data storage
   hive: ^2.2.3
   hive_flutter: ^1.1.0
+
+  # Riverpod for state management
   flutter_riverpod: ^2.4.4
   path_provider: ^2.1.1
   dartz: ^0.10.1
+
+  # Intl for date format
   intl: ^0.18.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
+  # Hive generator
   hive_generator: ^2.0.1
+
+  # Build runner for generating .g.dart file
   build_runner: ^2.1.7
 
   # The "flutter_lints" package below contains a set of recommended lints to
@@ -54,6 +66,13 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
+
+# Flutter launcher icons
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo_travel_app.png"
+  min_sdk_android: 21
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
